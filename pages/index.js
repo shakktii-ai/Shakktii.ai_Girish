@@ -586,8 +586,8 @@ export default function Home() {
               <td className="border-2 border-black text-center w-16">
                 <img src="/Girish.jpg" className="m-auto" />
               </td>
-              <td className="border-2 border-black text-center">
-                <img src="/images.jpg" className="m-auto" />
+              <td className="border-2 border-black text-center w-16">
+                <img src="/BJP.png" className="m-auto" />
               </td>
               <td className="border-2 border-black p-4 bg-orange-100 text-center flex flex-row justify-center">
                 <div
@@ -816,7 +816,7 @@ export default function Home() {
 </div>
 
       <audio ref={(el) => (audioRefs.current.audio1 = el)} src="/x.mp4" preload="auto"></audio>
-      <audio ref={(el) => (audioRefs.current.audio2 = el)} src="/B1.wav" preload="auto"></audio>
+      <audio ref={(el) => (audioRefs.current.audio2 = el)} src="/mahajan.mp3" preload="auto"></audio>
       <audio ref={(el) => (audioRefs.current.audio3 = el)} src="/ButtonBeep.WAV" preload="auto"></audio>
       <audio ref={(el) => (audioRefs.current.audio4 = el)} src="/final_.wav" preload="auto"></audio>
 
